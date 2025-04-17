@@ -1,3 +1,4 @@
+# test build
 name: Build App
 on:
   push:
@@ -241,3 +242,4 @@ jobs:
           echo ${{ steps.semantic.outputs.new_release_major_version }}
           echo ${{ steps.semantic.outputs.new_release_minor_version }}
           echo ${{ steps.semantic.outputs.new_release_patch_version }}
+trigger build
